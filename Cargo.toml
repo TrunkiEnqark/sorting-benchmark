@@ -1,0 +1,22 @@
+[package]
+name = "sorting_benchmark"
+version = "0.1.0"
+edition = "2021"
+authors = ["Tran Kien Quoc <quockientran100@gmail.com>"]
+description = "A benchmark comparison of sorting algorithms"
+
+[dependencies]
+rand = "0.8.5"
+csv = "1.2"
+
+[dev-dependencies]
+divan = "0.1.0"
+criterion = "0.5"
+
+[[bench]]
+name = "sort_bench"
+harness = false
+
+[features]
+default = []
+export_data = []
