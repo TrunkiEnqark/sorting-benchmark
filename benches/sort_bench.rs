@@ -7,7 +7,7 @@ fn main() {
 }
 
 // Array sizes to benchmark
-const SIZES: [usize; 5] = [10, 50, 100, 500, 1000];
+const SIZES: [usize; 9] = [10, 50, 100, 500, 1000, 2000, 5000, 10000, 100000];
 
 // Generate a random array for benchmarking
 fn random_array(size: usize) -> Vec<i32> {

@@ -3,7 +3,7 @@ use sorting_benchmark::benchmark::run_benchmarks;
 fn main() {
     println!("Running sorting algorithm benchmarks...");
     
-    let sizes = [100, 500, 1000, 2000, 5000, 10000];
+    let sizes = [100, 500, 1000, 2000, 5000, 10000, 100000];
     let iterations = 5;
     
     let results = run_benchmarks(&sizes, iterations);
